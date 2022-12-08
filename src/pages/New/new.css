@@ -1,0 +1,33 @@
+
+.colum {
+ align-items:column;
+ width: 50%;
+ display: flex;
+}
+
+form textarea{
+  height: 105px;
+  resize: none;
+}
+
+form input[type="radio"]{
+  margin: 15px 0;
+}
+
+form input[type="radio"]:not(:first-child){
+  margin-left: 15px;
+}
+
+form input[type="checkbox"]{
+  margin: 15px 2px;
+}
+
+form input[type="checkbox"]:not(:first-child){
+  margin-left: 15px;
+}
+
+.status span{
+  padding-left: .5em;
+  font-size: 1.3em;
+}
+
